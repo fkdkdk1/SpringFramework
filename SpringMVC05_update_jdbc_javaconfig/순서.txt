@@ -1,0 +1,29 @@
+1. web.xml : 2.5 -> 4.0 (new dynamic web project -> web module 4.0 생성 -> 복사)
+2. pem.xml
+	java : 1.6 -> 1.8
+	springframework : 3.1.1 -> x.x.x
+	servlet-api : 2.5 -> 4.0.1 (servlet-api -> javax.servlet-api)
+	jsp-api : 2.1 -> 2.3.3 (jsp-api ->javax.servlet.jsp-api)
+	maven-compiler-plugin:source/target 둘 다 1.6 -> 1.8
+3. project facets
+	dynamic web module 2.5 -> 4.0
+	java 1.6 -> 1.8
+4. maven update
+
+_jdbc
+5. pom.xml : spring-jdbc, ojdbc6
+6. web.xml : applicationContext.xml, *.do, encodingFilter
+7. src/main/resources/sqls/
+	jdbc.sql
+	db.properties
+
+8. applicationContext.xml
+9. dao biz dto controller
+
+_javaconfig
+10. com/mvc/update/config/ApplicationConfig
+11. com/mvc/update/config/ServletConfig (impl WebMvcConfigurer)
+12. web.xml
+13. /WEB-INF/spring 폴더 삭제
+14. web.xml 주석
+
